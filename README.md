@@ -2,7 +2,7 @@
 
 Este repositório representa um histórico geral de todos os conceitos estudados em exemplos e exercícios didáticos da disciplina curricular.
 
-![cafe](https://i.gifer.com/3M2.gif)
+![cafe](cafe.gif)
 
 - **Conceitos Abordados**:
   - **Ambientação com Arrays e Estruturas de Dados** :
