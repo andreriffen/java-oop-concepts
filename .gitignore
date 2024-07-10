@@ -1,6 +1,45 @@
-/PrjVenda_AssociacaoPorDependencia/nbproject/private/
-/PrjVenda_AssociacaoPorDependencia/build/
-/PrjVenda_ClasseAssociativa/nbproject/private/
-/PrjVenda_ClasseAssociativa/build/
-/PrjVenda_ClasseAssociativa_v2/nbproject/private/
-/PrjVenda_ClasseAssociativa_v2/build/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+/mpisching/PrjVenda_AssociacaoPorDependencia/nbproject/private/
+/mpisching/PrjVenda_AssociacaoPorDependencia/build/
+/mpisching/PrjVenda_ClasseAssociativa/nbproject/private/
+/mpisching/PrjVenda_ClasseAssociativa/build/
+/mpisching/PrjVenda_ClasseAssociativa_v2/nbproject/private/
+/mpisching/PrjVenda_ClasseAssociativa_v2/build/

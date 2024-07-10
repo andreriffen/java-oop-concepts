@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainapp.MainFXMLController">
+   <children>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Calculadora de IMC" textAlignment="CENTER" wrappingWidth="272.431640625">
+               <font>
+                  <Font name="Courier New" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="15.0" />
+               </VBox.margin>
+            </Text>
+            <Label alignment="CENTER" prefHeight="50.0" prefWidth="254.0" text="Peso" textAlignment="CENTER">
+               <font>
+                  <Font name="Courier New" size="18.0" />
+               </font>
+               <graphic>
+                  <TextField fx:id="tfPeso" promptText="70 kg">
+                     <font>
+                        <Font name="Courier New" size="18.0" />
+                     </font>
+                  </TextField>
+               </graphic>
+               <padding>
+                  <Insets bottom="15.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" prefHeight="50.0" prefWidth="277.0" text="Altura" textAlignment="CENTER">
+               <font>
+                  <Font name="Courier New" size="18.0" />
+               </font>
+               <graphic>
+                  <TextField fx:id="tfAltura" promptText="1,60 m">
+                     <font>
+                        <Font name="Courier New" size="18.0" />
+                     </font>
+                  </TextField>
+               </graphic>
+               <padding>
+                  <Insets bottom="15.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="38.0" prefWidth="300.0" spacing="10.0">
+               <children>
+                  <Button fx:id="btnCalcular" mnemonicParsing="false" onAction="#handleBtnCalcular" prefHeight="38.0" prefWidth="131.0" text="Calcular">
+                     <font>
+                        <Font name="Courier New" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnLimpar" mnemonicParsing="false" onAction="#handleBtnLimpar" text="Limpar">
+                     <font>
+                        <Font name="Courier New" size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="15.0" top="15.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
