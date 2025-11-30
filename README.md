@@ -31,7 +31,7 @@ Do you agree?
 
 Oh, I almost forgot: Check out my [oop-php repository](https://github.com/andreriffen/PHP-OOP-Projects)! I did some very similar applications using the same concepts in PHP.
 
-### Author: Andre GB Farias ☕
+### Author: [Andre GB Farias ☕](https://andreriffen.github.io/resume/)
 
 - Github: [andreriffen](https://github.com/andreriffen)
 - E-mail: [andre.gbf@ifsc.edu.br](mailto:andre.gbf@aluno.ifsc.edu.br)
